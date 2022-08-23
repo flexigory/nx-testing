@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "ng-app": "apps/ng-app",
-    "ng-app-e2e": "apps/ng-app-e2e"
+    "ng-app-e2e": "apps/ng-app-e2e",
+    "ng-lib": "libs/ng-lib"
   }
 }

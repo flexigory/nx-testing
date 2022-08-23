@@ -1,0 +1,22 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/ng-lib/src",
+  "prefix": "nx-testing",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ng-lib"],
+      "options": {
+        "jestConfig": "libs/ng-lib/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/ng-lib/**/*.ts", "libs/ng-lib/**/*.html"]
+      }
+    }
+  },
+  "tags": []
+}
